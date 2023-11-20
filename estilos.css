@@ -166,6 +166,7 @@ main {
 }
 
 #servicios {
+    margin-top: auto;
     padding-top: 5em;
     padding-bottom: 5em;
     /* background: linear-gradient(rgb(51, 51, 51, 0.5) 0%, rgb(189, 230, 78, 0.3) 100%), url(abog.svg); */
@@ -497,3 +498,31 @@ a.ciudades_links:active {
     background-color: white;
     color: black;
 }
+
+
+/* Seccion marcas */
+.marcas {
+text-align: center;
+padding: 20px;
+height: auto;
+}
+.carousel {
+display: flex;
+overflow-x: hidden;
+scroll-behavior: smooth;
+height: 150px;
+}
+
+.carousel-item {
+flex: 0 0 auto;
+margin-right: 10px;
+height: 150px;
+}
+
+.img-marcas {
+max-width: 100px;
+max-height: 100px;
+height: 50%;
+border-radius: 5px;
+}
+
